@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "codelyoko",
+  "version": "${version}",
+
+  "name": "CodeLyoko",
+  "description": "A Mmo Minecraft Mod on the theme of Code Lyoko",
+  "authors": [
+    "Octanne",
+    "simon511000",
+    "cauchemart",
+    "Wirax",
+    "Janer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Octanne/CodeLyokoFabric",
+    "sources": "https://github.com/Octanne/CodeLyokoFabric"
+  },
+
+  "license": "CC BY-NC-SA 4.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.octanne.codelyoko.CodeLyokoMain"
+    ]
+  },
+  "mixins": [
+    "codelyoko.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
