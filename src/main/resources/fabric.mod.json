@@ -24,6 +24,12 @@
   "entrypoints": {
     "main": [
       "eu.octanne.codelyoko.CodeLyokoMain"
+    ],
+    "client": [
+      "eu.octanne.codelyoko.client.CodeLyokoClient"
+    ],
+    "server": [
+      "eu.octanne.codelyoko.server.CodeLyokoMainServer"
     ]
   },
   "mixins": [
